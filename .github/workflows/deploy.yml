@@ -23,7 +23,7 @@ jobs:
           username:  ${{ secrets.FTP_USERNAME }}
           password:  ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
-          server-dir: /public_html/discord-bot/
+          server-dir: /public_html/solyx-discord-bot/
           exclude: |
             **/.git*
             **/.git*/**
